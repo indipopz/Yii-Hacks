@@ -1,0 +1,50 @@
+# yii console command
+/yii
+/yii_test
+
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+.netbeans.xml
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+.DS_Store?
+
+# SASS Cache
+.sass-cache
+.sass-cache/*
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+/uploads/
+
+node_modules
+nfs
+.rnd
+
+#Codeception
+codeception.yml
+functional.suite.yml
+unit.suite.yml
+acceptance.suite.yml
+
+/runtime
