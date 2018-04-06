@@ -1,5 +1,5 @@
 ----VHost section----
-```txt
+```
 <VirtualHost *:80>
     ServerName  test.nitish.com
     DocumentRoot "/Applications/XAMPP/htdocs/test-app/web"
@@ -12,9 +12,9 @@
         Require all granted
     </Directory>
 </VirtualHost>
-
+```
 ----.htaccess--------
-```txt
+```
 RewriteEngine on
 
 <FilesMatch ".(eot|ttf|otf|woff)">
@@ -26,7 +26,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 # Otherwise forward it to index.php
 RewriteRule . index.php
-
+```
 
 ----Url Manager------
 ```php
