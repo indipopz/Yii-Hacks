@@ -29,7 +29,7 @@ RewriteRule . index.php
 
 
 ----Url Manager------
-
+```php
 'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
