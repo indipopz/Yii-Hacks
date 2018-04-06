@@ -1,5 +1,5 @@
 ----VHost section----
-
+```txt
 <VirtualHost *:80>
     ServerName  test.nitish.com
     DocumentRoot "/Applications/XAMPP/htdocs/test-app/web"
@@ -14,7 +14,7 @@
 </VirtualHost>
 
 ----.htaccess--------
-
+```txt
 RewriteEngine on
 
 <FilesMatch ".(eot|ttf|otf|woff)">
