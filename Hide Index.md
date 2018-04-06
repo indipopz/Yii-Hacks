@@ -14,6 +14,7 @@
 </VirtualHost>
 ```
 ----.htaccess--------
+Add This file in your project's document root with index.php.
 ```
 RewriteEngine on
 
